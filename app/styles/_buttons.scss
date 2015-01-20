@@ -1,0 +1,15 @@
+.btn {
+  position: relative;
+  background: rgba(0,0,0,0.3);
+  padding: 1em 2em;
+  color: #fff;
+  border-radius: 0;
+  overflow: hidden;
+  @include animated;
+  &:hover {
+    background: $brand-red;
+    color: #fff;
+    text-decoration: none;
+  }
+
+}

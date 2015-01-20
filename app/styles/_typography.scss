@@ -1,0 +1,28 @@
+
+// Variables
+$light: 100;
+$bold: 700;
+$primaryFont:'Oswald', sans-serif;
+
+// Base typography
+body {
+  font-family: $primaryFont;
+  color: #fff;
+}
+h1 {
+  font-weight:800;
+}
+#content {
+  .navigation h1{
+    border: none;
+    padding: 15px;
+  }
+}
+
+// Snippets
+.lightFont {
+  font-weight: $light;
+}
+.boldFont {
+  font-weight: $bold;
+}

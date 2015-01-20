@@ -1,0 +1,15 @@
+
+    <div class="col-md-10 portfolio col-md-push-2  col-sm-10 col-sm-push-2 no-pad">
+      <ul  class="ul-menu inline-menu">
+        <li data-ng-repeat="item in portfolio | orderBy:'id'" class="repeat-animation">
+            <figure>
+              <img src="{{item.images[0]}}" alt=""/>
+              <figcaption>
+                <h1 class="upCase">{{item.category}}</h1>
+                <p>{{item.description}}</p>
+              </figcaption>
+            </figure>
+          <a class="btn more-btn" more-info>More info</a>
+        </li>
+      </ul>
+    </div>

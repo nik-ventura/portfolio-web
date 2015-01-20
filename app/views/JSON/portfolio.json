@@ -1,0 +1,120 @@
+
+[
+    {
+        "id":2,
+        "category": "Graphic design",
+        "description": "Promotional package design for 'Honey Monster'",
+        "images": [
+            "images/portfolio/portfolio-item-1.jpg"
+        ]
+    },
+    {
+        "id":1,
+        "category": "Web design",
+        "description": "DNA bank concept design and front-end development",
+        "images": [
+            "images/portfolio/portfolio-item-2.jpg"
+        ]
+    },
+    {
+        "id":3,
+        "category": "Web design",
+        "description": "International lottery site concept design and front-end development",
+        "images": [
+            "images/portfolio/portfolio-item-3.jpg"
+        ]
+    } ,
+    {
+        "id":9,
+        "category": "Web design",
+        "description": "Web site re-branding",
+        "images": [
+            "images/portfolio/portfolio-item-4.jpg"
+        ]
+    }  ,
+    {
+        "id":10,
+        "category": "Web design",
+        "description": "Promotional website design and front-end development",
+        "images": [
+            "images/portfolio/portfolio-item-5.jpg"
+        ]
+    },
+    {
+        "id":16,
+        "category": "Web design",
+        "description": "Web site re-branding",
+        "images": [
+            "images/portfolio/portfolio-item-6.jpg"
+        ]
+    },
+    {
+        "id":12,
+        "category": "Graphic design",
+        "description": "Infographic design for 'supervoitto.fi'",
+        "images": [
+            "images/portfolio/portfolio-item-8.jpg"
+        ]
+    }
+    ,
+    {
+        "id":13,
+        "category": "Graphic design",
+        "description": "Poster design for 'AD'",
+        "images": [
+            "images/portfolio/portfolio-item-9.jpg"
+        ]
+    }, {
+    "id":4,
+    "category": "Web design",
+    "description": "Exchange stuff service concept. Mockup design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-10.jpg"
+    ]
+},{
+    "id":11,
+    "category": "Web design",
+    "description": "Web store design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-12.jpg"
+    ]
+},{
+    "id":15,
+    "category": "Web design",
+    "description": "Web store design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-13.jpg"
+    ]
+},{
+    "id":14,
+    "category": "Web design",
+    "description": "Web store design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-14.jpg"
+    ]
+}, {
+    "id":8,
+    "category": "Web design",
+    "description": "Online magazine design for 'Calcus.fi'. Mockup design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-15.jpg"
+    ]
+},{
+    "id":6,
+    "category": "Graphic design",
+    "description": "'Magnetico' product box design",
+    "images": [
+        "images/portfolio/portfolio-item-16.jpg"
+    ]
+}   ,{
+    "id":7,
+    "category": "Web design",
+    "description": "'Magnetico' web store design and front-end development. Mockup design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-17.jpg"
+    ]
+}
+
+
+
+]

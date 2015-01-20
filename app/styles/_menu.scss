@@ -1,0 +1,96 @@
+.navigation {
+  background: #000;
+  position: fixed;
+  text-align: left;
+  h1 {
+    color: #fff;
+    font-size: 3.3em;
+    padding: 15px;
+    margin: 0;
+  }
+  h2 {
+    font-weight: 100;
+    font-size:1.5em ;
+    padding: 15px;
+    margin: 0;
+  }
+  ul {
+    text-align: left;
+    margin-top: 20px;
+    li {
+      a {
+        display: block;
+        color: #fff;
+        font-size: 1.1em;
+        font-weight: 300;
+        padding: 1em 3em;
+        @include animated;
+      }
+      a.active {
+        background: $brand-red;
+      }
+      a:hover, a:active {
+        background: rgba(241, 9, 75, 0.72);
+        color: #fff;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .navigation {
+    padding-bottom: 19px;
+    h1 {
+      font-size: 2em;
+      padding: 0.5em 0.2em;
+    }
+    h2 {
+      font-size: 1em;
+      padding: 0.5em 0.2em;
+    }
+    ul {
+      li {
+        a {
+          padding: 1em 2em;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .full-h {
+    height: inherit;
+  }
+   body#home {
+     .col-md-2 {
+       height: auto;
+     }
+     .navigation {
+       position: relative;
+       padding-bottom: 19px;
+       text-align: center;
+       h1 {
+         font-size: 2em;
+         display: inline-block;
+       }
+       h2 {
+         font-size: 1.5em;
+         display: inline-block;
+       }
+       .ul-menu {
+         clear: both;
+         text-align: center;
+         li {
+           display: inline-block;
+           a {
+             display: inline-block;
+             padding: 1em 1.5em;
+             border: 1px solid rgba(255,255,255,0.5);
+             &.active {
+               border: 1px solid $brand-red;
+             }
+           }
+         }
+       }
+     }
+   }
+}
