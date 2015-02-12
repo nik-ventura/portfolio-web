@@ -2,14 +2,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
-@import "../bower_components/animate.css/animate.css";
 @import "_variables.scss";
+@import "_icons.scss";
 @import "_animations.scss";
 @import "_typography.scss";
 @import "_menu.scss";
-@import "_icons.scss";
 @import "_buttons.scss";
-
 
 .browsehappy {
   margin: 0.2em 0;
@@ -22,7 +20,8 @@ body, html {
 }
 body {
   &#home {
-    background: url("../images/home-bg.jpg");
+    background-image: url("../images/home-bg.jpg");
+    background-size: cover;
     .row, .container-fluid, .col-md-5, .col-md-2 {
       height: 100%;
     }
@@ -53,7 +52,6 @@ body {
 }
 #contact {
   .ul-menu {
-    margin-bottom: 20px;
     li {
       padding: 0 1em;
       &:hover {
@@ -70,6 +68,9 @@ body {
 }
 #graphic-design, #web-dev, #contact {
   ul {
+    &.ul-menu {
+      margin: 20px 0;
+    }
     li {
       @include animated;
       margin: 0 1em;

@@ -9,7 +9,7 @@ app.controller('PortfolioCtrl', ['$scope', 'PortfolioFactory', function($scope, 
 }]);
 
 // Controller for toggling 'active' class in nav menu
-app.controller('MenuCtrl', function($scope, $location) {
+app.controller('MenuCtrl', ['$scope', '$location', function($scope, $location) {
     $scope.getClass = function(path) {
         if ($location.path().substr(0, path.length) == path) {
             return "active"
@@ -17,4 +17,4 @@ app.controller('MenuCtrl', function($scope, $location) {
             return ""
         }
     }
-});
+}]);

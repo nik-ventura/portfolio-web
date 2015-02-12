@@ -102,16 +102,37 @@
 },{
     "id":6,
     "category": "Graphic design",
-    "description": "'Magnetico' product box design",
+    "description": "Magnetico™ product box design",
     "images": [
         "images/portfolio/portfolio-item-16.jpg"
     ]
 }   ,{
     "id":7,
     "category": "Web design",
-    "description": "'Magnetico' web store design and front-end development. Mockup design and front-end development",
+    "description": "Magnetico™ web store design and front-end development. Mockup design and front-end development",
     "images": [
         "images/portfolio/portfolio-item-17.jpg"
+    ]
+} ,{
+    "id":3,
+    "category": "Graphic design",
+    "description": "'Magnetic stripe' FB campaign banner",
+    "images": [
+        "images/portfolio/portfolio-item-21.jpg"
+    ]
+},{
+    "id":1,
+    "category": "Web design",
+    "description": "No Stress™ web design and front-end development. <a href=\"http://nostress.me\">www.nostress.me<\/a>",
+    "images": [
+        "images/portfolio/portfolio-item-19.jpg"
+    ]
+},{
+    "id":2,
+    "category": "Web design",
+    "description": "Magnetic Stripe™ promo page design and front-end development",
+    "images": [
+        "images/portfolio/portfolio-item-20.jpg"
     ]
 }
 

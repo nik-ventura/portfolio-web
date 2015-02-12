@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:url('../fonts/icomoon.eot?-aro549');
-  src:url('../fonts/icomoon.eot?#iefix-aro549') format('embedded-opentype'),
-  url('../fonts/icomoon.woff?-aro549') format('woff'),
-  url('../fonts/icomoon.ttf?-aro549') format('truetype'),
-  url('../fonts/icomoon.svg?-aro549#icomoon') format('svg');
+  src:url('/fonts/icomoon.eot');
+  src:url('/fonts/icomoon.eot') format('embedded-opentype'),
+  url('/fonts/icomoon.woff') format('woff'),
+  url('/fonts/icomoon.ttf') format('truetype'),
+  url('/fonts/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,39 +23,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-settings-phone:before {
-  content: "\e602";
+.icon-email:before {
+  content: "\e60b";
 }
-.icon-ring-volume:before {
-  content: "\e603";
-}
-.icon-mail:before {
-  content: "\e604";
-}
-.icon-social-skype:before {
-  content: "\e605";
-}
-.icon-mail2:before {
+
+.icon-phone-in-talk:before {
   content: "\e606";
 }
-.icon-phone-outline:before {
-  content: "\e607";
-}
-.icon-arrow-right:before {
-  content: "\e095";
-}
-.icon-check:before {
-  content: "\e116";
-}
-.icon-cross:before {
-  content: "\e600";
-}
-.icon-menu:before {
-  content: "\e601";
-}
-.icon-skype:before {
-  content: "\e608";
-}
+
 .icon-skype2:before {
   content: "\e609";
 }
+
